@@ -7,6 +7,15 @@
 	<link rel="stylesheet" href="<?php echo SERVERURL;?>/vistas/css/main.css">
 </head>
 <body>
+
+<?php
+require_once "./controladores/vistasControlador.php";
+$vt =new vistasControlador();
+$vst=$vt->obtener_vista_controlador();
+if($vst=="login"){
+require_once "contenidos/login-view.php";
+}else{
+?>
     <!-- SideBar -->
     
 	<?php include "vistas/modulos/navlateral.php"; ?>
@@ -21,7 +30,10 @@
         
         <!-- Content page -->
         
-        
+        <?php
+        //aqui se muestra la vista indicada en la url
+        require_once $vst;
+        ?>
         
 
         <!-- aqui va el contenido-->
@@ -38,7 +50,9 @@
 	
     <!--====== Scripts -->
     
-    <?php include "vistas/modulos/script.php";?>
+    <?php 
+}?>
+<?php include "vistas/modulos/script.php";?>
 	
 </body>
 </html>

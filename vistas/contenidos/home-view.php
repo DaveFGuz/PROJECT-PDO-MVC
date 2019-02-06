@@ -60,7 +60,7 @@
 			<section id="cd-timeline" class="cd-container">
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="./assets/img/avatar.jpg" alt="user-picture">
+                        <img src="<?php echo SERVERURL;?>/vistas/assets/img/avatar.jpg" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">1 - Name (Admin)</h4>
@@ -73,7 +73,7 @@
                 </div>  
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="./assets/img/avatar.jpg" alt="user-picture">
+                        <img src="<?php echo SERVERURL;?>/vistas/assets/img/avatar.jpg" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">2 - Name (Teacher)</h4>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="./assets/img/avatar.jpg" alt="user-picture">
+                        <img src="<?php echo SERVERURL;?>/vistas/assets/img/avatar.jpg" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">3 - Name (Student)</h4>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
-                        <img src="./assets/img/avatar.jpg" alt="user-picture">
+                        <img src="<?php echo SERVERURL;?>/vistas/assets/img/avatar.jpg" alt="user-picture">
                     </div>
                     <div class="cd-timeline-content">
                         <h4 class="text-center text-titles">4 - Name (Personal Ad.)</h4>
