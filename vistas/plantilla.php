@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,12 +10,20 @@
 <body>
 
 <?php
+$peticionAjax=false;
 require_once "./controladores/vistasControlador.php";
 $vt =new vistasControlador();
 $vst=$vt->obtener_vista_controlador();
+if($vst=="login"|| $vst=="404"){
+    
 if($vst=="login"){
 require_once "contenidos/login-view.php";
 }else{
+require_once "contenidos/404-view.php";
+}
+
+}else{
+    session_start();
 ?>
     <!-- SideBar -->
     

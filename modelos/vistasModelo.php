@@ -2,7 +2,7 @@
 
 class vistasModelo{
     protected function obtener_vistas_modelo($vista){
-        $listaBlanca=["admin","home"];
+        $listaBlanca=["admin","home","404"];
 
         if(in_array($vista,$listaBlanca)){
             if(is_file("./vistas/contenidos/".$vista."-view.php")){
@@ -15,7 +15,7 @@ class vistasModelo{
         }elseif($vista=="index"){
             $contenido="login";
         } else{
-            $contenido="login";
+            $contenido="404";
         }
         return $contenido;
     }
