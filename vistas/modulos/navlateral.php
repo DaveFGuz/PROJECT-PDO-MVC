@@ -37,16 +37,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Period</a>
+							<a href="<?php echo SERVERURL;?>/period"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Period</a>
 						</li>
 						<li>
-							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Subject</a>
+							<a href="<?php echo SERVERURL;?>/subject"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Subject</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Section</a>
+							<a href="<?php echo SERVERURL;?>/section"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Section</a>
 						</li>
 						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Salon</a>
+							<a href="<?php echo SERVERURL;?>/salon"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Salon</a>
 						</li>
 					</ul>
 				</li>
@@ -56,16 +56,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Admin</a>
+							<a href="<?php echo SERVERURL;?>/admin"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Admin</a>
 						</li>
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Teacher</a>
+							<a href="<?php echo SERVERURL;?>/teacher"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Teacher</a>
 						</li>
 						<li>
-							<a href="student.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Student</a>
+							<a href="<?php echo SERVERURL;?>/student"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Student</a>
 						</li>
 						<li>
-							<a href="representative.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Representative</a>
+							<a href="<?php echo SERVERURL;?>/representative"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Representative</a>
 						</li>
 					</ul>
 				</li>
@@ -75,10 +75,10 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registration</a>
+							<a href="<?php echo SERVERURL;?>/registration"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registration</a>
 						</li>
 						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Payments</a>
+							<a href="<?php echo SERVERURL;?>/payments"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Payments</a>
 						</li>
 					</ul>
 				</li>
@@ -88,7 +88,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="school.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
+							<a href="<?php echo SERVERURL;?>/school"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> School Data</a>
 						</li>
 					</ul>
 				</li>

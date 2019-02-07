@@ -57,6 +57,14 @@ protected function limpiar_cadena($cadena){
 
     return $cadena;
 }
+protected function sweet_alert($datos){
+if($datos['Alerta']=="simple"){
+    $alerta="
+    <script>
+    swal('".$datos['titulo']."','".$datos['texto']."','".$datos['tipo']."');
+    </script>";
+}
+}
 
 ?>
 
