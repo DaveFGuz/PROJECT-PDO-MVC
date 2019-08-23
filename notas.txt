@@ -6,3 +6,4 @@ David Flores Guzma
 >  plantilla para las vista
 >  cree carpeta para majenar contenido de vistas
 ************************************************ 
+qwer
